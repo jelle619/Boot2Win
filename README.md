@@ -17,4 +17,9 @@ Search for the line GRUB_DEFAULT=0 and modify it to GRUB_DEFAULT=saved. You may 
 sudo update-grub
 ```
 
-Now, download the newest Boot2Win desktop entry from this repository and move the file after downloading to ``~/.local/share/applications``. You have now completed the installation. To boot into Windows from your Linux installation, launch the desktop entry.
+### Placing the desktop entry
+
+Now, download the newest Boot2Win desktop entry from this repository and move the file after downloading to ``~/.local/share/applications``.
+
+### Congratulations!
+You have now completed the installation. To boot into Windows from your Linux installation, launch the desktop entry.
