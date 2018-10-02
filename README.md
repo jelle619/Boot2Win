@@ -25,4 +25,4 @@ Now, download the newest Boot2Win desktop entry from this repository and move th
 You have now completed the installation. To boot into Windows from your Linux installation, launch the desktop entry.
 
 ## License
-This project uses the Creative Commons Attribution 4.0 International Public License which can be found [here](https://creativecommons.org/licenses/by/4.0/legalcode).
+This project uses the GNU General Public License v3.0. A copy of this license can be found in the repository.
