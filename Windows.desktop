@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Exec=bash -c 'echo "Please enter your password to restart your computer into Microsoft Windows." && sudo grub-reboot 2 && sudo reboot'
+Name=Microsoft Windows
+GenericName=Windows
+Comment=Restart your computer into Microsoft Windows
+Encoding=UTF-8
+Terminal=true
+Type=Application
+Name[en_GB]=Windows
