@@ -31,7 +31,7 @@ grub2-mkconfig -o "$(readlink -e /etc/grub2.conf)"
 
 ### Placing the desktop entry
 
-Now, download the Boot2Win desktop entry designated for your Linux distro from this repository. Rebooting into Windows requires your administrator password, which means you need to open up the file in a text editor and replace every instance of ``PASSWORD_HERE`` with your actual administrator password (unless you have chosen to use the passwordless version of Boot2Win, in which case you will be asked for a password each time you want to reboot). After that, move the file after downloading to ``~/.local/share/applications``.
+Now, download the Boot2Win desktop entry designated for your Linux distro from this repository. Rebooting into Windows requires your administrator password, which means you need to open up the file in a text editor and replace every instance of ``PASSWORD_HERE`` with your actual administrator password (unless you have chosen to use the passwordless version of Boot2Win, in which case you will be asked for a password each time you want to reboot). After that, move the file to ``~/.local/share/applications``.
 
 ### Congratulations!
 You have now completed the installation. To boot into Windows from your Linux installation, launch the desktop entry.
