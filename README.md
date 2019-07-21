@@ -23,7 +23,7 @@ On Fedora, you may want to use the following command instead on legacy systems:
 sudo grub2-mkconfig -o "$(readlink -e /etc/grub2.conf)"
 ```
 
-The following command should be used if you're using UEFI on Fedora instead:
+In some cases, also the following command should be used if you're using UEFI on Fedora:
 
 ```bash
 sudo grub2-mkconfig -o "$(readlink /etc/grub2-efi.cfg)"
