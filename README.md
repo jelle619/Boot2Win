@@ -11,7 +11,7 @@ Make sure Windows is your second entry in the GRUB bootloader menu. If you have 
 sudo gedit /etc/default/grub
 ```
 
-Search for the line GRUB_DEFAULT=0 and modify it to GRUB_DEFAULT=saved. You may also want to disable the timeout in the GRUB menu by modifying the line GRUB_TIMEOUT=10 (or any other number than 10) to 0.001 (using 0 might yield the same results but it's not guaranteed to work). To apply your changes, save the file and use the following command in the terminal. 
+Search for the line GRUB_DEFAULT=0 and modify it to GRUB_DEFAULT=saved. You may also want to disable the timeout in the GRUB menu by modifying the line GRUB_TIMEOUT=10 (or any other number than 10) to 0.0001 (as some distributions refuse to set it to 0, defaulting to a a much higher number than 0). To apply your changes, save the file and use the following command in the terminal: 
 
 ```bash
 sudo update-grub
