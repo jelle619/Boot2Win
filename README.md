@@ -17,14 +17,14 @@ Search for the line GRUB_DEFAULT=0 and modify it to GRUB_DEFAULT=saved. You may 
 sudo update-grub
 ```
 
-On Fedora, you may want to use the following command instead on legacy systems:
+On Fedora, you may want to use one of the following commands instead:
 
+Legacy:
 ```bash
 sudo grub2-mkconfig -o "$(readlink -e /etc/grub2.conf)"
 ```
 
-In some cases, also the following command should be used if you're using UEFI on Fedora:
-
+UEFI:
 ```bash
 sudo grub2-mkconfig -o "$(readlink /etc/grub2-efi.cfg)"
 ```
