@@ -20,7 +20,7 @@ sudo update-grub
 On Fedora, you may want to use one of the following commands instead (UEFI only):
 
 ```bash
-sudo grub2-mkconfig -o "$(readlink /etc/grub2-efi.cfg)"
+sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
 ```
 
 ### Placing the desktop entry
