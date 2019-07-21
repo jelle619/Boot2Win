@@ -17,6 +17,12 @@ Search for the line GRUB_DEFAULT=0 and modify it to GRUB_DEFAULT=saved. You may 
 sudo update-grub
 ```
 
+On Fedora, you may want to use the following command instead:
+
+```bash
+sudo grub2-mkconfig -o "$(readlink -e /etc/grub2.conf)"
+```
+
 ### Placing the desktop entry
 
 Now, download the newest Boot2Win desktop entry from this repository and move the file after downloading to ``~/.local/share/applications``.
