@@ -1,5 +1,6 @@
 # Boot2Win
 A desktop entry that boots you into Windows from your Linux desktop
+``WORK IN PROGRESS, DO NOT USE IN PRODUCTION``
 
 ## Setup
 This guide will help you getting Boot2Win setup. First of all, make sure you have Windows installed. Install your favourite GNU/Linux operating system with the GRUB bootloader afterwards.
