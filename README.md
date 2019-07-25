@@ -1,4 +1,4 @@
-# Boot2Win ``WORK IN PROGRESS, DO NOT USE IN PRODUCTION``
+# Boot2Win ``WORK IN PROGRESS``
 A desktop entry that boots you into Windows from your Linux desktop
 
 ## Setup
